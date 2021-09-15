@@ -1,0 +1,17 @@
+.p {
+  width: 100vw;
+  background-color: rgb(31, 20, 20);
+  color: rgba(53, 255, 245, 0.664);
+  font-size: 9rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.otherDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url('https://st2.depositphotos.com/1791505/9051/i/600/depositphotos_90518124-stock-photo-rainbow-fruits-and-vegetables-collage.jpg');
+}

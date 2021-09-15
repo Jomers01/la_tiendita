@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: min(25%, 40rem);
+}
+
+.input {
+  margin-bottom: .9rem!important;
+  font-size: 9rem!important;
+}
+
+.products-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 100vw;
+  width: fit-content;
+  min-height: 100vh;
+  height: fit-content;
+  padding: 5rem;
+  background-color: rgb(255, 247, 248);
+  font-family: 'Roboto', sans-serif;
+}
+
+.div_card {
+  height: min-content;
+  width: 18rem;
+  margin-bottom: 4rem;
+  margin-right: 2rem;
+}
+
+.card {
+  cursor: pointer;
+  position: relative;
+  width: 18rem;
+  height: 20rem;
+  border-radius: .5rem;
+  border: .2rem solid #818d99;
+  background-size: contain;
+}
+
+.activeBtnDelete {
+  background-color: #5c1e1e77;
+  border-color: grey;
+  cursor: pointer;
+  color: #5f5d5d9d;
+  width: 4.9rem;
+  height: 2.9rem;
+  margin-left: .4rem;
+  border: .1rem solid transparent;
+  border-radius: .4rem;
+  background-color: #5f5d5d56;
+}
+
+.activeBtnDelete:hover {
+  background-color: #e74545d8;
+  color: #6e0505cb;
+}
+
+.activeBtnEdit {
+  background-color: #344a5f80;
+  border-color: grey;
+  cursor: pointer;
+  color: #5f5d5d9d;
+  width: 4.9rem;
+  height: 2.9rem;
+  margin-left: .4rem;
+  border: .1rem solid transparent;
+  border-radius: .4rem;
+  background-color: #5f5d5d56;
+}
+
+.activeBtnEdit:hover {
+  background-color: #0060b9d5;
+  color : #000080;
+}
+
+.div-button {
+  position: absolute;
+  bottom: .3rem;
+  right: .5rem;
+}
+
+.name {
+  margin: 1rem 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form {
+    margin-top: 5rem;
+    width: max(50%, 60rem);
+  }
+
+  .divcard {
+    margin-bottom: 3rem;
+  }
+
+  .products-div{
+    justify-content: center;
+  }
+
+  .activeBtnEdit {
+    background-color: #616b75bd;
+    color : #000000;    
+  }
+
+  .activeBtnDelete {
+    background-color: #c57171cc;
+    color: #6e0505cb;
+  }
+}
+
+.Link {
+  color: lightpink;
+  font-weight: bold;
+}
+
+.Link:hover{
+  text-decoration: underline;
+}
