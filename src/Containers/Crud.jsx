@@ -33,9 +33,9 @@ class Crud extends React.Component {
       });
   }
 
-  shouldComponentUpdate(prevProps, prevState) {
-    return (prevState.recargar != this.state.recargar);;
-  }
+  // shouldComponentUpdate(prevProps, prevState) {
+  //   return (prevState.recargar != this.state.recargar);;
+  // }
 
   // Eventos 
   handleSubmit = event => {
